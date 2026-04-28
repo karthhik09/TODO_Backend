@@ -1,0 +1,33 @@
+# Secrets
+src/main/resources/application.properties
+src/main/resources/application-*.properties
+src/main/resources/application.yml
+src/main/resources/application-*.yml
+
+
+# Maven
+target/
+*.class
+*.jar
+*.war
+
+# Maven wrapper
+!.mvn/
+!mvnw
+!mvnw.cmd
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.project
+*.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
