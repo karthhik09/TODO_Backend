@@ -27,6 +27,10 @@ public class AuthController {
     @Autowired
     private MfaService mfaService;
 
+    // Health check
+    @GetMapping("/health")
+    public String health() { return "OK"; }
+
     // Account creation
     @PostMapping("/register")
     public AuthResponse register(@Valid @RequestBody User user) {
